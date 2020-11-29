@@ -1,0 +1,11 @@
+{
+  "FileLoggerSettings": {
+   "Folder": "C:\\temp\\Sitegeist\\logs",
+    "FileName": "log_{DATETIME:MM-dd-yyyy-HH-mm-ss-fff}.txt",
+    "Overwrite": false
+  },
+  "FileResultsStorage": {
+    "Folder": "C:\\temp\\Sitegeist\\results",
+    "FileName": "results_{DATETIME:MM-dd-yyyy-HH-mm-ss-fff}.json"
+  }
+}
