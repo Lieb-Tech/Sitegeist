@@ -49,10 +49,10 @@ namespace Sitegeist.Utils
         /// <returns></returns>
         public Bitmap CropAtRect(Bitmap bmp, Rectangle rect)
         {
-            Bitmap nb = new Bitmap(r.Width, r.Height);
+            Bitmap nb = new Bitmap(rect.Width, rect.Height);
             using (Graphics g = Graphics.FromImage(nb))
             {
-                g.DrawImage(bmp, -r.X, -r.Y);
+                g.DrawImage(bmp, -rect.X, -rect.Y);
                 return nb;
             }
         }
